@@ -5,8 +5,8 @@ Recoil uses `gulp`, `browserify`, `livereload` and `less` to build complex web a
 
 It leverages technogolies like `livereload` to instantly refresh the developer's webpage whenever there are changes. 
 
-* Built in source mapping
-* Componenet based architecture, grouping the code, styling and assets of componenet together, rather then seperating them by type.
+		Built in source mapping
+		Componenet based architecture, grouping the code, styling and assets of componenet together, rather then seperating them by type.
 * Leveraging node modules
 * Compatible with [Bower]()
 
@@ -38,11 +38,14 @@ Include `recoil` in your gulpfile.js in your project. Configure it
 Options
 =======
 
-* build_paths : Array
-* debug : Boolean
-* build_path : String
-* template_path : String
-* use_less : Boolean
-* use_react : Boolean
-* cdn_paths : Object
-* ignore_exts : Array
+	{
+		build_paths : Array
+		debug : Boolean
+		build_path : String
+		template_path : String
+		use_less : Boolean
+		use_react : Boolean
+		cdn_paths : Object
+		ignore_exts : Array
+	}
+
