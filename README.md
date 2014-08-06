@@ -39,13 +39,13 @@ Options
 =======
 
 	{
-		build_paths : Array
+		dev_paths : Array
 		debug : Boolean
 		build_path : String
 		template_path : String
-		use_less : Boolean
-		use_react : Boolean
+		complete_tasks : String
 		cdn_paths : Object
+		
 		ignore_exts : Array
 	}
 
