@@ -6,12 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "main" : "recoil.js",
+  "main": "recoil.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/thalmic/recoil.git"
   },
-  "author": "Scott Tolksdorf",
+  "author": {
+    "name": "Scott Tolksdorf"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/thalmic/recoil/issues"
@@ -45,5 +47,11 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.0.0",
     "watchify": "^2.1.0"
-  }
+  },
+  "readme": "recoil\r\n======\r\n\r\nReact.js / Gulp / Browserify build system\r\n",
+  "readmeFilename": "README.md",
+  "_id": "recoil@1.0.0",
+  "_shasum": "1f8421f0819e887382a17819cb29c5bec0d81f5c",
+  "_resolved": "git+ssh://git@github.com:stolksdorf/recoil.git#76725308a18ab384481d6c7531ef37f57411c4bc",
+  "_from": "git+ssh://git@github.com:stolksdorf/recoil.git"
 }
